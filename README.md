@@ -31,7 +31,7 @@ $ financialservices
 
 ```bash
 # Execute as migrations do projeto
-$ yarn typeorm migration:run src/shared/infra/typeorm
+$ yarn typeorm migration:run -d src/shared/infra/typeorm
 ```
 
 ```bash
@@ -40,21 +40,24 @@ $ yarn dev
 ```
 
 ```bash
+# Para rodar os testes na aplicação primeiro crie um banco de dados com o nome
+$ financialservices_test
+
 # Para executar os testes na aplicação
 $ yarn test
 ```
 
-# A pasta coverage -> lcov-report -> index.html pode ser vista o coverage report dos testes da aplicação
+A pasta coverage -> lcov-report -> index.html pode ser vista o coverage report dos testes da aplicação
 
 # :computer: Autor
 
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/Wesley-Moura">
+      <a href="https://www.linkedin.com/in/wesley-de-lacerda-moura-652477121/">
         <br />
         <sub>
-          <b>Wesley Moura</b>
+          <b>Linkedin</b>
         </sub>
        </a>
        <br />
